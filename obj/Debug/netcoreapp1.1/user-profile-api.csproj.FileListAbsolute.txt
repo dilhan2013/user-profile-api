@@ -1,0 +1,8 @@
+c:\src-my\user-profile-api\bin\Debug\netcoreapp1.1\user-profile-api.deps.json
+c:\src-my\user-profile-api\bin\Debug\netcoreapp1.1\user-profile-api.runtimeconfig.json
+c:\src-my\user-profile-api\bin\Debug\netcoreapp1.1\user-profile-api.runtimeconfig.dev.json
+c:\src-my\user-profile-api\bin\Debug\netcoreapp1.1\user-profile-api.dll
+c:\src-my\user-profile-api\bin\Debug\netcoreapp1.1\user-profile-api.pdb
+c:\src-my\user-profile-api\obj\Debug\netcoreapp1.1\user-profile-api.AssemblyInfo.cs
+c:\src-my\user-profile-api\obj\Debug\netcoreapp1.1\user-profile-api.dll
+c:\src-my\user-profile-api\obj\Debug\netcoreapp1.1\user-profile-api.pdb

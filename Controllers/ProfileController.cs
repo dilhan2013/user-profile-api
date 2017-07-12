@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace user_profile_api.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class ProfileController : Controller
     {
         // GET api/values
         [HttpGet]
