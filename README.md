@@ -1,4 +1,7 @@
 # user-profile-api
+
+This is still under development....
+
 Goal of this api is to provide user profile picture and full name based on email address or userid (a guid).
 
 Details stored are;
