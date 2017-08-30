@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using UserProfileApi.Service;
+using UserProfileApi.Settings;
 
 namespace user_profile_api
 {
@@ -27,8 +29,12 @@ namespace user_profile_api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<DocumentDbSettings>(Configuration.GetSection("DocumentDb"));
+
             // Add framework services.
             services.AddMvc();
+
+            services.AddTransient<DocumentDbTester, DocumentDbTester>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
