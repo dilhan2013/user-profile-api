@@ -1,6 +1,6 @@
 # user-profile-api
 
-This is still under development....
+Development In-Progress :)
 
 Goal of this api is to provide user profile picture and full name based on email address or userid (a guid).
 
@@ -44,3 +44,7 @@ POST Data
 }
 ````
 Api will automatically generate different photo sizes based on the photo data uploaded. Use squire images for best results.
+
+## Storage
+MongoDB - Api will be using MongoDB for saving user profile data.
+Azure Blob Storage - Api will be using Azure Blob Storage to store images.
